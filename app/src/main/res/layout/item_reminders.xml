@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="20dp"
+    style="@style/Card">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        tools:ignore="ExtraText">
+
+        <ImageView
+            android:id="@+id/item_image_cardview"
+            style="@style/Icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/icons8_family" />
+
+        <TextView
+            android:id="@+id/item_heading_cardview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            style="@style/TextHeading"
+            app:layout_constraintStart_toEndOf="@id/item_image_cardview"
+            app:layout_constraintTop_toTopOf="@id/item_image_cardview"
+            tools:text="Wifi Password" />
+        S
+        <TextView
+            android:id="@+id/item_info_cardview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            style="@style/TextValue"
+            app:layout_constraintStart_toEndOf="@id/item_image_cardview"
+            app:layout_constraintTop_toBottomOf="@id/item_heading_cardview"
+            tools:text="MyWifiPassword" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

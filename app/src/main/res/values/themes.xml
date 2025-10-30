@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Reminders" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorOnSurface">@color/blue_grey900</item>
+        <item name="colorOnSurfaceVariant">@color/blue_grey400</item>
+        <item name="colorPrimaryContainer">@color/blue_grey100</item>
+    </style>
+
+    <style name="Theme.Reminders" parent="Base.Theme.Reminders" />
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Icon">
+        <item name="tint">?attr/colorPrimary</item>
+    </style>
+    <style name="Card">
+        <item name="strokeColor">?attr/colorPrimaryContainer</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="TextHeading">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:textSize">15sp</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="TextValue">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textSize">17sp</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+
+</resources>

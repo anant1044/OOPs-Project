@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/personal_icon"
+        android:title="Personal"
+        android:icon="@drawable/icons8_personal"/>
+
+    <item android:id="@+id/family_icon"
+        android:title="Family"
+        android:icon="@drawable/icons8_family"/>
+
+    <item android:id="@+id/work_icon"
+        android:title="Work"
+        android:icon="@drawable/icons8_work"/>
+
+</menu>
